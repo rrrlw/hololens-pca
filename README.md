@@ -1,5 +1,7 @@
 ## Teaching medical students big data with augmented reality
-by Raoul R. Wadhwa, Shreya Louis, Paola Raska
+by Raoul R. Wadhwa<sup>1</sup>, Shreya Louis<sup>1</sup>, Paola Raska<sup>1,2</sup>
+<sup>1</sup>Cleveland Clinic Lerner College of Medicine, Case Western Reserve University
+<sup>2</sup>Department of Quantitative Health Sciences, Cleveland Clinic
 
 To replicate the results of this study, use one of the following methods.
 
