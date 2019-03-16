@@ -1,0 +1,64 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+record_id,hololens2017,,text,"Record ID",,,,,,,,,,,,,
+id,hololens2017,,text,"Enter student ID:",,,integer,1,55,,,y,,,,,
+group,hololens2017,,radio,"Enter randomly assigned group:","1, HoloLens first | 2, Discussion first",,,,,,,y,,,,,
+year,hololens2017,,radio,Year,"1, Class of 2021 (activity in summer 2017) | 2, Class of 2022 (activity in summer 2018)",,,,,,,y,,,,,
+pre_1,hololens2017,,text,"Do you think it is more intuitive to analyze data numerically (numerical summaries) or visually (graphical plots)?",,,,,,,,y,,,,,
+pre_2,hololens2017,,text,"To the best of your abilities, what do you think is the purpose of Principal Component Analysis (PCA)?",,,,,,,,y,,,,,
+pre_3,hololens2017,,dropdown,"Please rate your current understanding of PCA. 1 is least understanding and 10 is most understanding.","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,1,10,,,y,,,,,
+pre_4,hololens2017,,text,"How does PCA select principal components?",,,,,,,,y,,,,,
+pre_5,hololens2017,,text,"What is one issue with visualizing data in higher dimensions?",,,,,,,,y,,,,,
+pre_6,hololens2017,,text,"State 3 reasons that a scientist would use PCA for data analysis.",,,,,,,,y,,,,,
+ws_1,hololens2017,,dropdown,"Please rate your understanding of PCA after going through the worksheet. 1 is least understanding and 10 is most understanding.","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,1,10,,,y,,,,,
+ws_2,hololens2017,,text,"How did the worksheet questions help you better understand PCA?",,,,,,,,y,,,,,
+ws_3,hololens2017,,text,"What is the advantage of having a different way to summarize your data with PCA?",,,,,,,,y,,,,,
+ws_4,hololens2017,,text,"Why is it important for principal components to capture the dimensions with the most variation?",,,,,,,,y,,,,,
+ws_5,hololens2017,,text,"What information is contained in the loadings matrix?",,,,,,,,y,,,,,
+ws_6,hololens2017,,text,"Do your new PC scores change the structure of your data? Explain.",,,,,,,,y,,,,,
+hl_1,hololens2017,,dropdown,"How would you rate your understanding of PCA after the HoloLens Module where 1 is least understanding and 10 is most understanding.","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,1,10,,,y,,,,,
+hl_2,hololens2017,,text,"How did the hololens help you better understand PCA?",,,,,,,,y,,,,,
+hl_3,hololens2017,,text,"What is the relationship between the principal component and your original variables?",,,,,,,,y,,,,,
+hl_4,hololens2017,,text,"What happens to your data after centering and rotating your reference axes?",,,,,,,,y,,,,,
+hl_5,hololens2017,,text,"Explain what the difference was between the Probe groups and the PCA plot for the breast cancer patient data.",,,,,,,,y,,,,,
+hl_6,hololens2017,,text,"What is the advantage of having a different way of summarizing your data with PCA?",,,,,,,,y,,,,,
+hl_7,hololens2017,,text,"Why is it important for principal components to capture the dimensions with the most variation?",,,,,,,,y,,,,,
+paper_1,hololens2017,,dropdown,"How would you rate your understanding of PCA after the paper discussion where 1 is least understanding and 10 is most understanding.","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10",,,1,10,,,y,,,,,
+paper_2,hololens2017,,text,"How did discussing the paper help you better understand PCA?",,,,,,,,y,,,,,
+paper_3,hololens2017,,text,"What is the relationship between the principal component and your original variables?",,,,,,,,y,,,,,
+paper_4,hololens2017,,text,"What happens to your data after centering and rotating your reference axes?",,,,,,,,y,,,,,
+paper_5,hololens2017,,text,"What is the advantage of having a different way of summarizing your data with PCA?",,,,,,,,y,,,,,
+post_1_o1,hololens2017,"Rank the following modules (1 to 4, with 1 being the most helpful) used today in terms of the most effective learning experience.",radio,"Pre-session reading","1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,post_1,y,
+post_1_o2,hololens2017,,radio,"Example Worksheet","1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,post_1,y,
+post_1_o3,hololens2017,,radio,"Paper Discussion","1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,post_1,y,
+post_1_o4,hololens2017,,radio,"HoloLens Module","1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,post_1,y,
+post_21_opt1,hololens2017,"The learning objectives of this session include:
+a) Principal component analysis reveals which of the original measurements contain the most information in your data.
+b) PCA does not change data structure, just defines new axes or directions to view the data.
+c) PCA reduces the dimensionality of the data while retaining as much of the variance in the dataset as possible.
+
+Please rank how each of the 4 modalities helped you in understanding learning objective a.",radio,"Assigned Reading","1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,post_21,y,
+post_21_opt2,hololens2017,,radio,"Worksheet Exercise","1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,post_21,y,
+post_21_opt3,hololens2017,,radio,"Paper Discussion","1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,post_21,y,
+post_21_opt4,hololens2017,,radio,HoloLens,"1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,post_21,y,
+post_21_comment,hololens2017,,text,"Please enter any comments regarding your ranking for LO a above.",,,,,,,,,,,,,
+post_22_opt1,hololens2017,"The learning objectives of this session include:
+a) Principal component analysis reveals which of the original measurements contain the most information in your data.
+b) PCA does not change data structure, just defines new axes or directions to view the data.
+c) PCA reduces the dimensionality of the data while retaining as much of the variance in the dataset as possible.
+
+Please rank how each of the 4 modalities helped you in understanding learning objective b.",radio,"Assigned Reading","1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,post_22,y,
+post_22_opt2,hololens2017,,radio,"Worksheet Exercise","1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,post_22,y,
+post_22_opt3,hololens2017,,radio,"Paper Discussion","1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,post_22,y,
+post_22_opt4,hololens2017,,radio,HoloLens,"1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,post_22,y,
+post_22_comment,hololens2017,,text,"Please enter any comments regarding your ranking for LO b above.",,,,,,,,,,,,,
+post_23_opt1,hololens2017,"The learning objectives of this session include:
+a) Principal component analysis reveals which of the original measurements contain the most information in your data.
+b) PCA does not change data structure, just defines new axes or directions to view the data.
+c) PCA reduces the dimensionality of the data while retaining as much of the variance in the dataset as possible.
+
+Please rank how each of the 4 modalities helped you in understanding learning objective c.",radio,"Assigned Reading","1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,post_23,y,
+post_23_opt2,hololens2017,,radio,"Worksheet Exercise","1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,post_23,y,
+post_23_opt3,hololens2017,,radio,"Paper Discussion","1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,post_23,y,
+post_23_opt4,hololens2017,,radio,HoloLens,"1, 1 | 2, 2 | 3, 3 | 4, 4",,,,,,,y,,,post_23,y,
+post_23_comment,hololens2017,,text,"Please enter any comments regarding your ranking for LO c above.",,,,,,,,,,,,,
+post_3,hololens2017,,text,"What did you find most useful about today's learning experiences?",,,,,,,,y,,,,,
